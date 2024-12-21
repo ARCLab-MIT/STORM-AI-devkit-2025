@@ -103,7 +103,7 @@ def run_evaluator(ground_truth_path=None, participant_path=None):
     - participant_path (str): Path to the participant JSON file.
     """
     if participant_path is None:
-        participant_df = '../toy_data/participant_toy.csv')
+        participant_df = '../toy_data/participant_toy.csv'
     
     if ground_truth_path is None:
         ground_truth_path = '../toy/grountruth_toy.csv'
