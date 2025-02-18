@@ -193,7 +193,7 @@ class MSISPersistenceAtmosphere(PythonAtmosphere):
             date: AbsoluteDate, the date of the position.
     
             Returns:
-            tuple: (latitude, longitude, altitude) in degrees and meters.
+            tuple: (latitude, longitude, altitude) in degrees and kilometers.
             """
             # Create a PVCoordinates object (assuming zero velocity)
             pvICRF = PVCoordinates(positionICRF, Vector3D.ZERO)
@@ -208,8 +208,8 @@ class MSISPersistenceAtmosphere(PythonAtmosphere):
     
             # Extract latitude, longitude, and altitude
             latitude = geodeticPoint.getLatitude()  # radians
-            longitude = geodeticPoint.getLongitude()  # radians
-            altitude = geodeticPoint.getAltitude()  # meters
+            longitude = geodeticPoint.getLongitude() # radians
+            altitude = geodeticPoint.getAltitude() / 1e3  # kilometers
     
             # Convert radians to degrees for latitude and longitude
             latitudeDeg = math.degrees(latitude)

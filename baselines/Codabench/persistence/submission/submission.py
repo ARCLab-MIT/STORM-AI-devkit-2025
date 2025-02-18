@@ -33,12 +33,8 @@ initial_states['Timestamp'] = pd.to_datetime(initial_states['Timestamp'])
 model = torch.load(os.path.join(TRAINED_MODEL_PATH), pickle_module=dill)
 
 predictions = {}
-i = 0
+
 for _, row in initial_states.iterrows():
-    i += 1
-    if i > 3:
-        break
-        
     file_id = row['File ID']
     # Load corresponding OMNI2 data
     omni2_file = os.path.join(omni2_path, f"omni2-{file_id}.csv")

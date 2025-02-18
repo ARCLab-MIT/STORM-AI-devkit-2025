@@ -196,7 +196,7 @@ def prop_orbit(initial_state, CustomAtmosphere, plot_trajectory=True, **kwargs):
     
     densities = [
         9.99e+32 if state is None else atmosphere.getDensity(
-            state.getDate(), state.getPVCoordinates().getPosition(), state.getFrame()
+            state.getDate(), state.getPVCoordinates().getPosition() / 1e3, state.getFrame()
         ) for state in states
     ]
 

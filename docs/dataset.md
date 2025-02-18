@@ -211,7 +211,9 @@ There is a specific bit arrangement for <b>xrsa_flag</b> and <b>xrsb_flag</b> va
 | V1.0     | 2024-11-15      | OMNI2 and SWARM A data shared in 3 files (OMNI2, SWARM A POD, SWARM A DNS) for 2014-2019              |
 | V1.1     | 2024-11-20      | Added GOES East inputs for 2014-2019                                                                  |
 | V2.0     | 2024-12-11      | Reorganized OMNI2, GOES & SWARM data into multiple files (1 of each type per initial satellite state) |
-| V3.0     | 2024-12-17      | Added remaining Phase 1 dataset without GOES inputs                                                   |
+| V3.0     | 2024-12-17      | Added samples 0-5570 to Phase 1 dataset without GOES inputs                                           |
+| V3.1     | 2024-12-20      | Added samples 5571-8118 and remaining GOES inputs to Phase 1 dataset                                  |
+| V3.2     | 2025-01-22      | Added initial state time codes for samples 6672-8118 and fixed OEs in warmup dataset                  |
 
 ## Guidelines
 
