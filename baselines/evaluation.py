@@ -142,7 +142,7 @@ class DensityModelEvaluator:
             weights = np.exp(-decay_rate * (delta_times - delta_times[0]))
 
         # Avoid division by zero by replacing zero RMSE with a small value
-        rmse_df['MSIS_RMSE'].replace(0, 1e-10, inplace=True)
+        rmse_df['MSIS_RMSE'].replace(0, 1e-32, inplace=True)
 
         # Compute the skill score for each DeltaTime
         rmse_df['Skill'] = 1 - (rmse_df['Pred_RMSE'] / rmse_df['MSIS_RMSE'])
