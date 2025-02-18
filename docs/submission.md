@@ -167,7 +167,11 @@ All your submissions will be compiled in the table at the bottom of the page. Th
 
 ![Submission scored screenshot](_img/submission_scored.png)
 
-The best of your submissions will be automatically published on the leaderboard once fully loaded. You can view this leaderboard at the following link:
+You must upload your best submissions to the leaderboard, as this is not an automatic process. To do so, once your submission has ended and you have received a score, you should click the green table button to publish your scores.
+
+![Submission published screenshot](_img/submission_publish.jpeg)
+
+Then, it will appear on the leaderboard.
 
 ![Leaderboard screenshot](_img/leaderboard.png)
 
