@@ -2,7 +2,7 @@
 import orekit
 from orekit.pyhelpers import setup_orekit_curdir
 
-from org.orekit.orbits import KeplerianOrbit, PositionAngleType
+from org.orekit.orbits import KeplerianOrbit, EquinoctialOrbit, PositionAngleType
 from org.orekit.frames import FramesFactory
 from org.orekit.time import TimeScalesFactory, AbsoluteDate
 from org.orekit.utils import Constants
@@ -43,8 +43,8 @@ earth = OneAxisEllipsoid(r_Earth,
                          Constants.IERS2010_EARTH_FLATTENING,
                          itrf)
 mu = Constants.IERS2010_EARTH_MU #m^3/s^2
-degree = 70
-torder = 70
+degree = 2
+torder = 2
 cr = 1.0
 utc = TimeScalesFactory.getUTC()
 sun = CelestialBodyFactory.getSun()
@@ -80,9 +80,9 @@ def prop_orbit(initial_state, CustomAtmosphere, plot_trajectory=True, **kwargs):
 
     # Integrator settings
     minStep = 1e-6
-    maxstep = 100.0
+    maxstep = 1.0e4
     initStep = 1.0
-    positionTolerance = 1e-4
+    positionTolerance = 1e-3
 
     # Satellite variables
     satellite_mass = kwargs.get('satellite_mass', 260.0) 
@@ -131,7 +131,7 @@ def prop_orbit(initial_state, CustomAtmosphere, plot_trajectory=True, **kwargs):
         initialDate,
         mu
     )
-    
+    initial_orbit = EquinoctialOrbit(initial_orbit)
     
     satmodel = IsotropicDrag(crossSection, dragCoeff) # Cross sectional area and the drag coefficient
 
