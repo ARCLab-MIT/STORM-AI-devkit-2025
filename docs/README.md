@@ -20,6 +20,7 @@
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/background.html">Background</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/baseline.html">Baseline Solutions</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/submission.html">Submission Process</a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/officehours.html">Office Hours</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/resources.html">Resources</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/faq.html">FAQ</a> 
 
