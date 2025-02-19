@@ -20,6 +20,7 @@
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/background.html">Background</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/baseline.html">Baseline Solutions</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/submission.html">Submission Process</a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/officehours.html">Office Hours</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/resources.html">Resources</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/faq.html">FAQ</a> 
 
@@ -63,7 +64,7 @@
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ffa500; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">🚀  Competition Status</div>
     <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 1</b> of the competition, and the <u><a href="
     https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0"  
-    style="color: #d35400; text-decoration: none; font-weight: bold;">dataset</a></u> has been released. For more information about its content and format, please check out the <u><a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#dataset-information" style="color: #d35400; text-decoration: none; font-weight: bold;">Dataset Information</a></u> section. You can now submit your code on a rolling basis for evaluation on the <u><a href="https://www.codabench.org/competitions/5547/#/participate-tab" style="color: #d35400; text-decoration: none; font-weight: bold;">Codabench platform</a></u>. <b> Phase 1 </b> of the competition will end on March 17, 2025.</p>
+    style="color: #d35400; text-decoration: none; font-weight: bold;">dataset</a></u> has been released. For more information about its content and format, please check out the <u><a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#dataset-information" style="color: #d35400; text-decoration: none; font-weight: bold;">Dataset Information</a></u> section. You can now submit your code on a rolling basis for evaluation on the <u><a href="https://www.codabench.org/competitions/5547/#/participate-tab" style="color: #d35400; text-decoration: none; font-weight: bold;">Codabench platform</a></u>. <b> Phase 1 </b> of the competition will end on April 21, 2025.</p>
     <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Have fun!</b></p>
 </div>
 </div>
@@ -145,9 +146,9 @@ Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 i
 | ------------- | ------------- | 
 | November 15, 2024 | Warm-up phase starts. |
 | December 16, 2024 | Phase 1 of the competition starts. Submissions accepted on a rolling basis. |
-| March 17, 2025 |Phase 1 ends. Top 10 finalists are notified of advancement to Phase 2. |
-| April 14, 2025 | Phase 2 ends. Technical report deadline. |
-| May 16, 2025 | Winner announcement. |
+| April 21, 2025 |Phase 1 ends. Top 10 finalists are notified of advancement to Phase 2. |
+| May 19, 2025 | Phase 2 ends. Technical report deadline. |
+| June 20, 2025 | Winner announcement. |
 -->
 
 ---

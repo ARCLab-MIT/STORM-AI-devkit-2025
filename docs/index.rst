@@ -26,6 +26,7 @@ As of December 17th, Phase 1 of the competition has begun, and the training data
    background
    baseline
    submission
+   officehours
    resources
    cite
    faq
