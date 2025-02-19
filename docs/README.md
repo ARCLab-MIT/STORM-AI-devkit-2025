@@ -146,9 +146,9 @@ Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 i
 | ------------- | ------------- | 
 | November 15, 2024 | Warm-up phase starts. |
 | December 16, 2024 | Phase 1 of the competition starts. Submissions accepted on a rolling basis. |
-| March 17, 2025 |Phase 1 ends. Top 10 finalists are notified of advancement to Phase 2. |
-| April 14, 2025 | Phase 2 ends. Technical report deadline. |
-| May 16, 2025 | Winner announcement. |
+| April 21, 2025 |Phase 1 ends. Top 10 finalists are notified of advancement to Phase 2. |
+| May 19, 2025 | Phase 2 ends. Technical report deadline. |
+| June 20, 2025 | Winner announcement. |
 -->
 
 ---
