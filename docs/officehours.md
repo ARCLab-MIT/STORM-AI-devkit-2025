@@ -1,5 +1,5 @@
 # Office Hours
-Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EST. Participants may ask general questions about the challenge (i.e. regarding data, submissions, evaluation, etc.), but all questions about specific approaches should be posted to the forums instead. Transcripts of the weekly office hours will be provided in the next section as they become available.
+Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EDT (Please note time differences due to daylight savings!). Participants may ask general questions about the challenge (i.e. regarding data, submissions, evaluation, etc.), but all questions about specific approaches should be posted to the forums instead. Transcripts of the weekly office hours will be provided in the next section as they become available.
 <div style="display: flex; justify-content: left; align-items: center; gap: 10px; padding: 10px;">
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
     <img src="https://github.com/user-attachments/assets/22255638-84ce-4f79-a4e9-7e51d517c428" alt="Codabench Logo" style="height: 20px; margin-right: 8px;">
