@@ -214,6 +214,7 @@ There is a specific bit arrangement for <b>xrsa_flag</b> and <b>xrsb_flag</b> va
 | V3.0     | 2024-12-17      | Added samples 0-5570 to Phase 1 dataset without GOES inputs                                           |
 | V3.1     | 2024-12-20      | Added samples 5571-8118 and remaining GOES inputs to Phase 1 dataset                                  |
 | V3.2     | 2025-01-22      | Added initial state time codes for samples 6672-8118 and fixed OEs in warmup dataset                  |
+| V3.3     | 2025-03-04      | Added missing GOES data from 2007-2013                                                                |
 
 ## Guidelines
 
