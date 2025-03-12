@@ -162,4 +162,25 @@ Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EST. Partic
       Sweet. You're welcome.<br>
       </p>
   </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      February 26, 2025
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">No discussions to report.</p>
+  </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      March 5, 2025
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">No discussions to report.</p>
+  </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      March 12, 2025
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">Check back soon! This transcript will be available shortly.</p>
+  </details>
 </div>
