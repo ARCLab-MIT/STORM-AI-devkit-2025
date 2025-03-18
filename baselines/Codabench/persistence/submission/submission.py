@@ -16,6 +16,7 @@ from atm import *
 
 TRAINED_MODEL_PATH = Path('persistence_model.pkl')
 TEST_DATA_DIR = os.path.join('/app','data', 'dataset', 'test')
+INPUT_DATA_DIR = os.path.join('/app','input_data')
 TEST_PREDS_FP = Path('/app/output/prediction.json')
 
 # Paths
