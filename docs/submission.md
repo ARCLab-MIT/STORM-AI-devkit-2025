@@ -36,7 +36,7 @@ This approach ensures the use of a private test dataset, protecting data privacy
 ## Prepare code for the submission
 ### Input data for docker container
 
-Your submission will be decompressed and loaded into a container inside the `/app/ingested_program` directory. From there, participants should focus on three relevant directories. The first is the `/app/data/dataset/test` directory, which contains all the input data, including the `initial_states.csv` file. The second important directory is `/app/output`, where participants should save their predictions in a file named `prediction.json`.
+Your submission will be decompressed and loaded into a container inside the `/app/ingested_program` directory. From there, participants should focus on three relevant directories. The first is the `/app/data/dataset/test` directory, which contains all the input data from GOES and OMNI2. The initial states can be found in `/app/input_data` folder. The second important directory is `/app/output`, where participants should save their predictions in a file named `prediction.json`.
 
 <div style="display: flex; flex-direction: column; background-color: #f9f9f9; border-left: 6px solid #4aa8ec; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #4aa8ec; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">ℹ️ Note</div>
@@ -54,17 +54,18 @@ Then, the directory structure is as follows:
  |            |    ├── 70001-goes.csv            
  |            |    └── ...
  |            ├── omni2
- |            |    ├── 70000-omni2.csv 
- |            |    ├── 70001-omni2.csv            
- |            |    └── ... 
- |            └── initial_states.csv  # Where predictions should start
+ |                 ├── 70000-omni2.csv 
+ |                 ├── 70001-omni2.csv            
+ |                 └── ... 
+ |
+ ├── input_data
+ |     └── initial_states.csv # Where predictions should start
  ├── ingested_program
  |     ├── submission.py
  |     ├── environment.yml
  |     └── ... 
  └── output
        └── prediction.json # It should appear after running the script
-
 
 ```
 
