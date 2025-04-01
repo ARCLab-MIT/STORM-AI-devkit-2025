@@ -105,7 +105,7 @@ docker pull arclabmit/ai-challenges:micromamba-submission
 ```
 
 #### 1. Prepare dummy version of the test dataset
-- Download [this folder](https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0) containing  test data (the data used in this phase of the challenge).
+- Download <a href="https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0">this folder</a> containing  test data (the data used in this phase of the challenge).
 - Move it somewhere. We will refer to this path as `LOCAL_DATA_DIR`.
 - You should end up with a path that looks like `LOCAL_DATA_DIR/test/`, and directory structure like the one at the begining of this page.
 
