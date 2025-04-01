@@ -183,4 +183,26 @@ Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EDT (UTC-04
     </summary>
     <p style="margin-top: 10px; font-size: 14px; color: #555;">A full transcript is unavailable. Participant questions revolved around Codabench submission logistics, and the organizers provided the following clarifications: (1) Participants may delete failed submissions to reduce their total number of submissions if they reach the limit. (2) Participants may not delete finished/scored runs to reduce their total number of submissions.</p>
   </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      March 19, 2025
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">No discussions to report.</p>
+  </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      March 26, 2025
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">A full transcript is unavailable. The following announcements were distributed via our mailing list and landing page in response to the attendees' questions:<br>
+    <ol>
+      <li><b>Complete Feedback Form:</b> We've noticed that while we have a large and engaged group of participants, only a limited number of teams have submitted their models so far. We understand that there can be many reasons for this, and we want to ensure that everyone has a positive and rewarding experience. To help us better understand your experience, please complete <a href="https://forms.gle/pypur1cHx2eqDgFA6">this short feedback form</a>.</li>
+      <li><b>Submit Your Models:</b> From now on, please submit your model to the public leaderboard for both Phase 1.1 and 1.2! The challenge is coming to a close, and we're eager to see the innovative solutions you've developed. Moreover, sharing your results is an essential and valuable part of the Challenge since you can learn from the leaderboard and receive feedback.</li>
+      <li><b>Final Score Computation:</b> As you know, recently we introduced a new task in Phase 1.2 to further challenge your models. To clarify the weighting scheme, this new dataset will account for 80% of the final score, while the original dataset will contribute 20%.</li>
+      <li><b>Altitude Corrections:</b> We’ve corrected the altitude values in the Phase 1.2 dataset, they were mistakenly provided in kilometers, unlike Phase 1.1 where they were in meters. Now, all values are consistently in meters. Please ignore the column name "Altitude (km)", the values are in meters despite the label. We’ve kept the name unchanged to avoid breaking existing submissions.</li>
+    </ol>
+    </p>
+  </details>
+  
 </div>
