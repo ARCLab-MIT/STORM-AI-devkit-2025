@@ -195,7 +195,7 @@ Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EDT (UTC-04
     <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
       March 26, 2025
     </summary>
-    <p style="margin-top: 10px; font-size: 14px; color: #555;">A full transcript is unavailable. The following announcements were distributed via our mailing list and landing page in response to the attendees' questions:<br>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">A full transcript is unavailable. The following announcements were distributed via our <a href="https://docs.google.com/forms/d/e/1FAIpQLSeatJPuSz5TY_nR7A-nCKTZqWwvHzIvnoN7Y3uOE1FtnbzXsQ/viewform?usp=sf_link">mailing list</a> and <a href="https://aeroastro.mit.edu/arclab/aichallenge/">landing page</a> in response to the attendees' questions:<br>
     <ol>
       <li><b>Complete Feedback Form:</b> We've noticed that while we have a large and engaged group of participants, only a limited number of teams have submitted their models so far. We understand that there can be many reasons for this, and we want to ensure that everyone has a positive and rewarding experience. To help us better understand your experience, please complete <a href="https://forms.gle/pypur1cHx2eqDgFA6">this short feedback form</a>.</li>
       <li><b>Submit Your Models:</b> From now on, please submit your model to the public leaderboard for both Phase 1.1 and 1.2! The challenge is coming to a close, and we're eager to see the innovative solutions you've developed. Moreover, sharing your results is an essential and valuable part of the Challenge since you can learn from the leaderboard and receive feedback.</li>
