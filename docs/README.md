@@ -37,6 +37,12 @@
   </div>
 
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+      <a href="arclab-mit.github.io" target="_blank" style="color: #ffffff; text-decoration: none;">
+        🏆 Leaderboard
+      </a>
+  </div>
+
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
       <img src="https://www.codabench.org/static/img/Cha_Logo.png" alt="Codabench Logo" style="height: 20px; margin-right: 8px;">
       <a href="https://www.codabench.org/competitions/5547/" target="_blank" style="color: #ffffff; text-decoration: none;">
       Codabench Competition
