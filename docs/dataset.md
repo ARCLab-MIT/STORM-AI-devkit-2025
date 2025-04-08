@@ -39,6 +39,11 @@ Some recommendations:
 * Be mindful of dataset units and representations!
 * You may access additional GOES, OMNI2, CHAMP, GRACE, and SWARM data through NOAA, NASA, and ESA online if you wish to supplement the provided warm-up data while training your algorithms.
 
+### Instructions for Dataset Download
+
+Dropbox may not support direct downloading of the entire Phase 1 dataset at once. Instead, open the Phase 1 dataset folder, where you’ll find several subfolders—such as omni2, goes, and density—available for individual download. Note that the goes folder is larger and contains multiple subfolders, each of which can also be downloaded separately.
+
+
 ### Warmup Dataset 
 
 The <a href="https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ-FFd5dmM8?rlkey=tem27v1d2raf2nnlcq6cd49ev&st=sty6ggo3&dl=0)">warm-up dataset</a> was released to participants on November 15, 2024. 
