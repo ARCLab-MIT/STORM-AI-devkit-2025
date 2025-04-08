@@ -33,4 +33,13 @@
       A: Anyone who is not a member of or closely affiliated with the MIT Astrodynamics, space Robotics, and Controls Lab is eligible to compete for the MIT ARCLab Prize for AI Innovation in Space.
     </p>
   </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      Q: How do I download the dataset? 
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">
+      A: Dropbox may not support direct downloading of the entire Phase 1 dataset at once. Instead, open the Phase 1 dataset folder, where you’ll find several subfolders—such as omni2, goes, and density—available for individual download. Note that the goes folder is larger and contains multiple subfolders, each of which can also be downloaded separately.
+    </p>
+  </details>
 </div>
