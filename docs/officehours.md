@@ -804,5 +804,24 @@ Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EDT (UTC-04
     Have a good day. Bye-bye.<br>
     </p>
   </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      April 9, 2025
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">A full transcript is unavailable, but the following is a summary of relevant questions and answers discussed during these office hours.<br>
+    <br>
+    <b>Q:</b> Are submissions going to be evaluated with public and private data, or just private data?<br>
+    <b>A:</b> Yes, the final submissions will be evaluated using both the public datasets (the same ones participants are currently using to evaluate their models) and a private dataset, similar to last year’s evaluation.<br>
+    <br>
+    <b>Q:</b> Can you give some information about the private dataset?<br>
+    <b>A:</b> No, we won’t provide any details about the private dataset, only how the final score will be computed.<br>
+    <br>
+    <b>Q:</b> Does the leaderboard show the best scores for each dataset using the same model, or does it use the best-performing models per dataset?<br>
+    <b>A:</b> The leaderboard shows the best public weighted score for a single model. It does not display the best score for each dataset regardless of whether they come from the same model. Keep in mind, as mentioned, that the selected model should be capable of adapting to any new data it receives.<br>
+    <br>
+    <b>Q:</b> Which model will be used to evaluate participants in the next phase? What if we want to use a different model, one that performs slightly worse but is less overfitted?<br>
+    <b>A:</b> In that case, you have two options. (1) If the less overfitted model performs close to the best one, you can simply delete the best model submission before the deadline to ensure the other one is selected, and (2) if the performance difference is significant but you still prefer the alternative model, email us with the submission ID of the preferred model. Just make sure it has been evaluated in both phases.</p>
+  </details>
   
 </div>
