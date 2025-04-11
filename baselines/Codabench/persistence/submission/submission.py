@@ -20,7 +20,7 @@ INPUT_DATA_DIR = os.path.join('/app','input_data')
 TEST_PREDS_FP = Path('/app/output/prediction.json')
 
 # Paths
-initial_states_file = os.path.join(TEST_DATA_DIR, "initial_states.csv")
+initial_states_file = os.path.join(INPUT_DATA_DIR, "initial_states.csv")
 omni2_path = os.path.join(TEST_DATA_DIR, "omni2")
 
 initial_states = pd.read_csv(initial_states_file)
