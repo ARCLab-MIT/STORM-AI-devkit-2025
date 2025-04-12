@@ -50,12 +50,12 @@ Then, the directory structure is as follows:
  |    └── dataset                  
  |        └── test
  |            ├── goes                
- |            |    ├── 70000-goes.csv 
- |            |    ├── 70001-goes.csv            
+ |            |    ├── goes-70000.csv 
+ |            |    ├── goes-70001.csv            
  |            |    └── ...
  |            ├── omni2
- |                 ├── 70000-omni2.csv 
- |                 ├── 70001-omni2.csv            
+ |                 ├── omni2-70000.csv 
+ |                 ├── omni2-70001.csv            
  |                 └── ... 
  |
  ├── input_data
