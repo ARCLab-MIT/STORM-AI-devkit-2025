@@ -823,5 +823,142 @@ Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EDT (UTC-04
     <b>Q:</b> Which model will be used to evaluate participants in the next phase? What if we want to use a different model, one that performs slightly worse but is less overfitted?<br>
     <b>A:</b> In that case, you have two options. (1) If the less overfitted model performs close to the best one, you can simply delete the best model submission before the deadline to ensure the other one is selected, and (2) if the performance difference is significant but you still prefer the alternative model, email us with the submission ID of the preferred model. Just make sure it has been evaluated in both phases.</p>
   </details>
+
+  <details style="margin-bottom: 10px; border: 1px solid #e0e0e0; border-radius: 5px; padding: 10px;">
+    <summary style="font-size: 16px; font-weight: bold; cursor: pointer; color: #2b2b2b;">
+      April 16, 2025
+    </summary>
+    <p style="margin-top: 10px; font-size: 14px; color: #555;">[Participant 1] 17:31:09<br>
+    That's right.<br>
+    <br>
+    [Organizer 1] 17:31:13<br>
+    The world of the only two data.<br>
+    <br>
+    [Participant 1] 17:31:14<br>
+    That they're going to be varying lengths they're not you know one geos file might be shorter than another goes file.<br>
+    <br>
+    [Organizer 1] 17:31:25<br>
+    It shouldn't but you can find some some errors in the in the goes training data set but in the in the final test set it shouldn't be any kind of errors or missing data in the goes file. You are always going to have<br>
+    <br>
+    [Organizer 1] 17:31:43<br>
+    60 days of context and you can use that to propagate three days in the future.<br>
+    <br>
+    [Participant 1] 17:31:51<br>
+    Okay, so you can assume that the test data set is going to be clean even for goes and omni2 and the density<br>
+    <br>
+    [Organizer 1] 17:32:00<br>
+    Yeah, yeah. It should be in a clean enough for you to use it.<br>
+    <br>
+    [Organizer 1] 17:32:07<br>
+    Maybe the phase one Well, phase one and phase zero dataset are not that clean and we have some missing data or something like that but you in the in the test data center you are always going to have that context and that horizon window<br>
+    <br>
+    [Participant 1] 17:32:31<br>
+    And also one more thing. Docker Hub.<br>
+    <br>
+    [Participant 1] 17:32:37<br>
+    For running a look, for testing it locally. Is that valid or is that from last year?<br>
+    <br>
+    [Participant 1] 17:32:41<br>
+    Because when I was running, I was getting syntax errors in the docker.<br>
+    <br>
+    [Organizer 1] 17:32:46<br>
+    No, it's valid. In fact. That docker file or that docker hub image is the one that is running in our servers.<br>
+    <br>
+    [Organizer 1] 17:32:55<br>
+    So I don't know what kind of error are you getting?<br>
+    <br>
+    [Participant 1] 17:32:57<br>
+    Okay.<br>
+    <br>
+    [Organizer 1] 17:33:02<br>
+    But if you have any kind of problem setting up the image.<br>
+    <br>
+    [Organizer 1] 17:33:06<br>
+    You can email us. Maybe we can help you<br>
+    <br>
+    [Organizer 1] 17:33:20<br>
+    Offline, no, not now.<br>
+    <br>
+    [Participant 1] 17:33:28<br>
+    I ran it, maybe… it was a corrupt file or something, but I ran it and I was getting quite a few syntax errors<br>
+    <br>
+    [Participant 1] 17:33:45<br>
+    In the code. But that's okay.<br>
+    <br>
+    [Organizer 1] 17:33:52<br>
+    When you don't dilute the Docker Hub image.<br>
+    <br>
+    [Participant 1] 17:34:06<br>
+    Yeah, maybe I… Like I said, maybe it was corrupt.<br>
+    <br>
+    [Participant 1] 17:34:14<br>
+    But where's the test data set for the docker image because I couldn't find that<br>
+    <br>
+    [Participant 1] 17:34:31<br>
+    Submissions still get accepted or does it have to run before the deadline.<br>
+    <br>
+    [Organizer 1] 17:34:38<br>
+    I don't know because I don't know the exact behavior of code events.<br>
+    <br>
+    [Participant 1] 17:34:44<br>
+    Okay.<br>
+    <br>
+    [Organizer 1] 17:34:46<br>
+    But if I were you, I will try to submit as soon as possible.<br>
+    <br>
+    [Participant 1] 17:34:52<br>
+    Yeah.<br>
+    <br>
+    [Organizer 1] 17:34:52<br>
+    Some kind of of submission just to see if everything is going fine and you have some scores.<br>
+    <br>
+    [Organizer 1] 17:35:00<br>
+    And also because you have, I think that two hours limit computation limit so computation limit maybe if your submission is too heavy it is going to fail if you if you if it takes too much to deal and run<br>
+    <br>
+    [Organizer 1] 17:35:18<br>
+    That provide or whatever approach are you following?<br>
+    <br>
+    [Organizer 1] 17:35:23<br>
+    Yeah, the better thing that you're going to do now is to now is to try and draw as much as you can.<br>
+    <br>
+    [Participant 1] 17:35:34<br>
+    Do we know what the test size is going to be or is that not public information?<br>
+    <br>
+    [Organizer 1] 17:35:39<br>
+    No, it's not public.<br>
+    <br>
+    [Participant 1] 17:35:41<br>
+    Okay. Can we assume it's going to be one GOES file, one Omni file, one density file, or is it going to be exactly the same as what was provided.<br>
+    <br>
+    [Participant 1] 17:35:52<br>
+    For phase one.<br>
+    <br>
+    [Organizer 1] 17:35:52<br>
+    Is going to be exactly the Exactly the same. You're going to have an initial state file and goes and omni data for each of the of the initial state and you have to run your model.<br>
+    <br>
+    [Organizer 1] 17:36:06<br>
+    In fact, we will download the… your submission, the submission that you made.<br>
+    <br>
+    [Organizer 1] 17:36:14<br>
+    To code events and that submission we will input directly to to the different data set and that is the private the score that you are going to have.<br>
+    <br>
+    [Participant 1] 17:36:29<br>
+    Okay. Cool. I think that's all my questions.<br>
+    <br>
+    [Organizer 1] 17:36:35<br>
+    Okay.<br>
+    <br>
+    [Participant 1] 17:37:09<br>
+    Okay. Okay, cool. Thank you, guys.<br>
+    <br>
+    [Organizer 2] 17:37:13<br>
+    Bye<br>
+    <br>
+    [Participant 1] 17:37:13<br>
+    Right.<br>
+    <br>
+    [Organizer 1] 17:37:14<br>
+    Thank you.</p>
+  </details>
   
 </div>
