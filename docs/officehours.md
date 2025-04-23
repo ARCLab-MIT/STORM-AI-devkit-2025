@@ -3,7 +3,7 @@ Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EDT (UTC-04
 <div style="display: flex; justify-content: left; align-items: center; gap: 10px; padding: 10px;">
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
     <img src="https://github.com/user-attachments/assets/22255638-84ce-4f79-a4e9-7e51d517c428" alt="Codabench Logo" style="height: 20px; margin-right: 8px;">
-    <a href="https://mit.zoom.us/j/92427066103" target="_blank" style="color: #ffffff; text-decoration: none;">
+    <a href="https://mit.zoom.us/j/99399861839" target="_blank" style="color: #ffffff; text-decoration: none;">
         Office Hours
       </a>
   </div>
