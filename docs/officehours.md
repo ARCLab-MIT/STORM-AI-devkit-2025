@@ -1,4 +1,10 @@
 # Office Hours
+
+   <div style="display: flex; flex-direction: column; background-color: #f9f9f9; border-left: 6px solid #4aa8ec; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
+       <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #4aa8ec; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">ℹ️ Note</div>
+       <p style="font-size: 14px; margin: 0; color: #555;">Office hours were held only during Phase 1, which ended on April 23rd.</p>
+   </div>
+
 Office hours are held weekly on Wednesdays from 11:00 am to 11:30 am EDT (UTC-04:00 → Please note time differences due to daylight savings!). Participants may ask general questions about the challenge (i.e. regarding data, submissions, evaluation, etc.), but all questions about specific approaches should be posted to the forums instead. Transcripts of the weekly office hours will be provided in the next section as they become available.
 <div style="display: flex; justify-content: left; align-items: center; gap: 10px; padding: 10px;">
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
