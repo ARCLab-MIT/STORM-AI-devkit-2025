@@ -5,7 +5,9 @@ Welcome to the wiki for the 2025 MIT ARCLab Prize for AI Innovation in Space!
 
 Here, you’ll find the latest information about the competition dataset, submission instructions, devkit tutorials, and more.
 
-As of December 17th, Phase 1 of the competition has begun, and the training dataset has been released. You can now submit your code on a rolling basis for evaluation on the Codabench platform. Phase 1 of the competition will end on March 17, 2025, at which time the top ten finalists will be notified of their advancement to Phase 2.
+As of April 24th, Phase 2 of the challenge has begun, and new submissions are no longer being accepted on the Codabench platform. Thank you to everyone who participated in Phase 1 through Codabench, discussion forums, office hours, and beyond. 
+
+Preliminary performance scores are still available on the public leaderboard, and we are currently performing more rigorous testing to determine the private weighted scores for the competing solutions. Phase 1 rankings will be finalized in the next few days, at which time the top ten teams will be notified of their advancement to Phase 2. 
 
 
 .. raw:: html
