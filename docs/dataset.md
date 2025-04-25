@@ -5,7 +5,7 @@
 <div style="display: flex; flex-direction: column; background-color: #e7f3fe; border-left: 6px solid #2196f3; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; color: #333;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #1565c0; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">📢 Announcement</div>
     <p style="font-size: 14px; margin: 0; line-height: 1.5;">
-        The public challenge problem dataset is now available to participants with the start of <strong>Phase 1</strong> of the competition.
+        <strong>Phase 1</strong> of the competition ended on April 23rd. The public challenge dataset will remain available through the end of the competition, but new submissions will not be considered.
     </p>
 </div>
 
