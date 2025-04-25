@@ -68,9 +68,7 @@
 
 <div style="display: flex; flex-direction: column; background-color: #fff4e5; border-left: 6px solid #ffa500; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ffa500; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">🚀  Competition Status</div>
-    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 1</b> of the competition, and the <u><a href="
-    https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0"  
-    style="color: #d35400; text-decoration: none; font-weight: bold;">dataset</a></u> has been released. For more information about its content and format, please check out the <u><a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#dataset-information" style="color: #d35400; text-decoration: none; font-weight: bold;">Dataset Information</a></u> section. You can now submit your code on a rolling basis for evaluation on the <u><a href="https://www.codabench.org/competitions/5547/#/participate-tab" style="color: #d35400; text-decoration: none; font-weight: bold;">Codabench platform</a></u>. <b> Phase 1 </b> of the competition will end on April 21, 2025.</p>
+    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 2</b> of the competition, and the deadline for code submissions has passed. Thank you to everyone who participated in the challenge through Codabench, discussion forums, office hours, and beyond. Phase 1 rankings will be finalized in the next few days, at which time the top ten teams will be notified of their advancement to Phase 2.</p>
     <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Have fun!</b></p>
 </div>
 </div>
