@@ -2,7 +2,7 @@
 
    <div style="display: flex; flex-direction: column; background-color: #f9f9f9; border-left: 6px solid #4aa8ec; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
        <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #4aa8ec; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">ℹ️ Note</div>
-       <p style="font-size: 14px; margin: 0; color: #555;">Phase 1 ended on April 23rd, 2025, and the deadline for code submissions has passed.</p>
+       <p style="font-size: 14px; margin: 0; color: #555;">Phase 1 ended on April 23rd, 2025, and new submissions will not be considered.</p>
    </div>
 
 Participants will submit their trained algorithm, along with their code and workflow, to the competition platform in their preferred programming language. They should upload the model and all necessary documents in a compressed format. The performance of their trained AI algorithm will then be evaluated against our internal test data and evaluation metric on our server. Once the evaluation is complete, the results will be sent back to the live leaderboard.
