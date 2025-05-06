@@ -7,8 +7,7 @@ Here, you’ll find the latest information about the competition dataset, submis
 
 As of April 24th, Phase 2 of the challenge has begun, and new submissions are no longer being accepted on the Codabench platform. Thank you to everyone who participated in Phase 1 through Codabench, discussion forums, office hours, and beyond. 
 
-Preliminary performance scores are still available on the public leaderboard, and we are currently performing more rigorous testing to determine the private weighted scores for the competing solutions. Phase 1 rankings will be finalized in the next few days, at which time the top ten teams will be notified of their advancement to Phase 2. 
-
+Phase 1 weighted performance scores are now available on the public leaderboard, and participating teams are encouraged to verify their scores before Phase 1 team rankings are finalized on Thursday, May 8th at 11:59:59 PM EDT. On Friday, May 9th, the top 10 teams from Phase 1 will advance to Phase 2 and must submit technical reports by Monday, May 26th, 11:59:59 PM EDT to be eligible to win a prize. 
 
 .. raw:: html
 
