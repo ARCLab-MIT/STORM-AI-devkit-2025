@@ -29,7 +29,7 @@
 
 
 ---
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px; padding: 5px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 5px; padding: 5px;">
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
       <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html" target="_blank" style="color: #ffffff; text-decoration: none;">
         📚 Read The Docs
