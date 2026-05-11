@@ -30,36 +30,36 @@
 
 ---
 <div style="display: flex; justify-content: center; align-items: center; gap: 5px; padding: 5px;">
-  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 5px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 12px; text-align: center;">
       <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html" target="_blank" style="color: #ffffff; text-decoration: none;">
         📚 Read The Docs
       </a>
   </div>
 
-  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 5px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 12px; text-align: center;">
       <a href="https://arclab-mit.github.io" target="_blank" style="color: #ffffff; text-decoration: none;">
         🏆 Leaderboard
       </a>
   </div>
 
-  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 5px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 12px; text-align: center;">
       <img src="https://www.codabench.org/static/img/Cha_Logo.png" alt="Codabench Logo" style="height: 20px; margin-right: 8px;">
       <a href="https://www.codabench.org/competitions/5547/" target="_blank" style="color: #ffffff; text-decoration: none;">
       Codabench Competition
       </a>
   </div>
 
-  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 5px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 12px; text-align: center;">
       <img src="https://gist.githubusercontent.com/SSHurtado/ffd2219614f39158cff2a25d99644e08/raw/2dd8b8673032541c0d74eaf8230056fa57e2233f/arXive_icon.svg" alt="Article Icon" style="height: 20px; margin-right: 8px;"> 
       <a href="https://www.researchgate.net/publication/401028911_AI_Challenge_for_Satellite_Tracking_and_Orbit_Resilience_Modeling_STORM-AI_Dataset_Design_and_Results" target="_blank" style="color: #ffffff; text-decoration: none;">
       Article
   </div>
-  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 5px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 12px; text-align: center;">
     <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/discussions" target="_blank" style="color: #ffffff; text-decoration: none;">
       💬 Discussion Forum
     </a>
 </div>
-<div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 5px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+<div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 12px; text-align: center;">
     <a href="https://github.com/ARCLab-MIT/STORM-AI-Report-Template" target="_blank" style="color: #ffffff; text-decoration: none;">
       🧾 Report Template
     </a>
