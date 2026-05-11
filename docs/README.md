@@ -49,7 +49,7 @@
       </a>
   </div>
 
-  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center; opacity: 0.5; cursor: not-allowed;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
       <img src="https://gist.githubusercontent.com/SSHurtado/ffd2219614f39158cff2a25d99644e08/raw/2dd8b8673032541c0d74eaf8230056fa57e2233f/arXive_icon.svg" alt="Article Icon" style="height: 20px; margin-right: 8px;"> 
       <a href="https://www.researchgate.net/publication/401028911_AI_Challenge_for_Satellite_Tracking_and_Orbit_Resilience_Modeling_STORM-AI_Dataset_Design_and_Results" target="_blank" style="color: #ffffff; text-decoration: none;">
       Article
