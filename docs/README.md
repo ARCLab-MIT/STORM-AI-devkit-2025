@@ -51,6 +51,7 @@
 
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center; opacity: 0.5; cursor: not-allowed;">
       <img src="https://gist.githubusercontent.com/SSHurtado/ffd2219614f39158cff2a25d99644e08/raw/2dd8b8673032541c0d74eaf8230056fa57e2233f/arXive_icon.svg" alt="Article Icon" style="height: 20px; margin-right: 8px;"> 
+      <a href="https://www.researchgate.net/publication/401028911_AI_Challenge_for_Satellite_Tracking_and_Orbit_Resilience_Modeling_STORM-AI_Dataset_Design_and_Results" target="_blank" style="color: #ffffff; text-decoration: none;">
       Article
   </div>
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
@@ -73,7 +74,7 @@
 
 <div style="display: flex; flex-direction: column; background-color: #fff4e5; border-left: 6px solid #ffa500; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ffa500; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">🚀  Competition Status</div>
-    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 2</b> of the competition, and the deadline for code submissions has passed. Thank you to everyone who participated in the challenge through Codabench, discussion forums, office hours, and beyond. Phase 1 weighted performance scores are now available on the public leaderboard, and invitations to participate in Phase 2 were emailed to finalists on Friday, May 9th. Finalists must submit technical reports by Monday, May 26th, 11:59:59 PM EDT in order to be an eligible prize winner.</p>
+    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">This competition has concluded! Thank you to everyone who participated in the challenge through Codabench, discussion forums, office hours, and beyond. Phase 1 weighted performance scores are now available on the public leaderboard, and invitations to participate in Phase 2 were emailed to finalists on Friday, May 9th. Finalists must submit technical reports by Monday, May 26th, 11:59:59 PM EDT in order to be an eligible prize winner.</p>
     <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Have fun!</b></p>
 </div>
 </div>
@@ -134,10 +135,10 @@ Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 i
 
 ![Prizes](_img/Prizes.png)
 
-* <b> First place*: </b> USD 10,000 in cash and a trip for one team-member to present their results at a technical meeting.
-* <b> Second place*: </b> USD 5,000 in cash and a trip for one team-member to present their results at a technical meeting.
-* <b> Third place*: </b> USD 3,000 in cash and a trip for one team-member to present their results at a technical meeting.
-* <b> Seal of Excellence (4th - 10th)*: </b> USD 1,000 in cash.
+* <b> First place*: </b> USD 2,000 in cash and a trip for one team-member to present their results at a technical meeting.
+* <b> Second place*: </b> USD 1,200 in cash and a trip for one team-member to present their results at a technical meeting.
+* <b> Third place*: </b> USD 800 in cash and a trip for one team-member to present their results at a technical meeting.
+* <b> Seal of Excellence (4th - 10th)*: </b> USD 200 in cash.
 
   <b> *Terms and conditions: </b> Expenses for travel and accommodations may be reimbursed for one person from each of the first, second, and third place teams. Airfare is reimbursable for economy class and U.S. Flag carrier airlines only. Travelers must submit a budget for approval prior to the trip. Travelers must provide comparison airfare if their trip exceeds the bounds of one day prior to and one day following the designated trip dates. Expenses will be reimbursed after the trip is complete. Cash awards are taxable, and automatic tax withholding will be carried out for nonresidents, while a 1099 will be issued for U.S. residents. Taxes for domestic payments are subject to MIT rules. Taxes for international payments (payments to non-U.S. citizens, including human subjects and recipients of student prizes or awards) are subject to a mandatory 30 percent tax withholding per U.S. government regulations. For some international awards, a reduced cash prize must be awarded due to MIT regulations. All cash prizes will be awarded after the technical meeting. All cash awards are subject to MIT policies and any relevant government policies.
 </div>
@@ -170,8 +171,16 @@ Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 i
 
 The STORM-AI dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the [Dataset](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html) and [Resources](https://2025-ai-challenge.readthedocs.io/en/latest/resources.html) sections. 
 
-If you reference the 2025 AI challenge problem, please use the following citation:
+Please use the following citations to reference the 2025 AI Challenge Problem and preceding foundational research respectively:
 ```bibtex
+@article{SanchezHurtado2026,
+  year = {2026},
+  month = Feb,
+  author = {Sergio Sanchez-Hurtado et al.},
+  title = {AI Challenge for Satellite Tracking and Orbit Resilience Modeling (STORM-AI): Dataset, Design, and Results},
+  journal = {Space Weather},
+  note = {Free preprint available at [https://www.researchgate.net/publication/401028911_AI_Challenge_for_Satellite_Tracking_and_Orbit_Resilience_Modeling_STORM-AI_Dataset_Design_and_Results](https://www.researchgate.net/publication/401028911_AI_Challenge_for_Satellite_Tracking_and_Orbit_Resilience_Modeling_STORM-AI_Dataset_Design_and_Results)}
+}
 @article{Briden2023,
   year = {2023},
   month = Sept,
