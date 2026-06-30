@@ -1,28 +1,41 @@
 # Dataset Information
 
 <!-- Announcement Quote Block -->
-<!-- Announcement Quote Block -->
 <div style="display: flex; flex-direction: column; background-color: #e7f3fe; border-left: 6px solid #2196f3; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; color: #333;">
-    <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #1565c0; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">📢 Announcement</div>
+    <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #1565c0; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">📢 Dataset release</div>
     <p style="font-size: 14px; margin: 0; line-height: 1.5;">
-        <strong>Phase 1</strong> of the competition ended on April 23rd. The public challenge dataset will remain available through the end of the competition, but new submissions will not be considered.
+        The competition has concluded and the <strong>complete STORM-AI dataset</strong> &mdash; training, public-evaluation, and private-evaluation splits &mdash; is now permanently archived and openly available on the <a href="https://dataverse.harvard.edu/dataverse/stormai">Harvard Dataverse</a>. The Dropbox links below were used during the live competition and may be retired; the Dataverse archive is the canonical source.
     </p>
 </div>
 
-## Challenge Dataset Availability
+## Overview
 
-The public challenge dataset will be available for participants to download and use to train and develop their models during Phase 1 of the competition. The warmup dataset is a portion of the full public dataset and is representative of the formats participants can expect for all provided training data.
+The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) dataset combines multi-phenomenology observations &mdash; solar, geomagnetic, and orbital &mdash; into a single basis for data-driven thermospheric density forecasting. All of it is derived from publicly available products distributed by organizations not affiliated with the challenge, including ESA, NASA Goddard Space Flight Center, NOAA, and the Space-Track catalog. The dataset spans roughly 25 years and seven satellites across six missions (SWARM A/B/C, CHAMP, GRACE, and GRACE-FO), deliberately covering both quiet and highly active geomagnetic periods (for example the 2003 Halloween storms, the 2015 St. Patrick's Day storm, the 2018&ndash;2020 deep solar minimum between cycles 24 and 25, and the very active year 2024).
 
-The private evaluation dataset contains data from spacecraft and/or time periods that are not represented in the public training data. It will retain the same format as the public dataset and will be used to evaluate the performance of the participants' models for the public leaderboard and final rankings.
+The data is organized into three splits:
+
+* **Training set (8,118 samples)** &mdash; used to develop models. It includes five of the six missions (SWARM A and C, CHAMP, GRACE, and GRACE-FO); **SWARM-B is held out entirely and never appears in training**, providing a fully independent evaluation source.
+* **Public evaluation set** &mdash; not shared directly with participants; it was accessed only through the scoring server to drive the live leaderboard while limiting overfitting.
+* **Private evaluation set (4,557 evaluation samples in total)** &mdash; focused on periods of strong solar and geomagnetic activity and used for the final ranking.
+
+### What is a "sample"?
+
+Throughout the dataset, a **sample** is a single forecasting instance for one satellite, identified by a unique `File ID`. Each sample bundles three elements:
+
+1. **Initial state** &mdash; the satellite's orbital elements and geodetic position at the reference epoch `t0`.
+2. **60 days of context** &mdash; the OMNI2 and GOES space-weather history immediately preceding `t0`.
+3. **Target** &mdash; the orbit-averaged thermospheric density over the following 3 days (72 h) at a 10-minute cadence (432 values), together with the corresponding MSIS baseline forecast.
+
+All sample counts reported here (such as the 8,118 training samples) refer to forecasting instances defined in this way.
 
 ## STORM-AI Data Formats
 
-### Phase 1 Public Training Dataset
+### Public Training Dataset
 
-The public challenge dataset is available for participants to download and use to train and develop their models during Phase 1 of the competition. The current version of the public training dataset may be accessed <a href="https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0">here</a> and includes the following files and folders:
+The public training dataset is the portion participants used to train and develop their models. It is permanently archived on the <a href="https://dataverse.harvard.edu/dataverse/stormai">Harvard Dataverse</a> (the competition-era Dropbox mirror is <a href="https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0">still available here</a>) and includes the following files and folders:
 * <b>Initial state files</b>: contain samples of a satellite's initial orbital elements, geodetic (ITRF) positional coordinates, and a 5-digit file ID for each I/O pair in the provided training data. Each file name has the format `[first file ID]_to_[last file ID]-initial_states.csv`.
 * <b>OMNI2 data folder</b>: Space weather information collected by NASA Space Flight Goddard Center and provided in 60-day segments (one 60-day OMNI2 history file per initial state). Each file name has the format `omni2-[file ID]-[first day]_to_[last day].csv`, where the dates are displayed as `YYYYmmDD`.
-* <b>GOES data folder</b>: X-Ray flux information collected by NOAA'S GOES satellites and provided in 60-day segments (one 60-day GOES history file per initial state). Each file name has the format `goes-[file ID]-[first day]_to_[last day].csv`, where the dates are displayed as `YYYYmmDD`. **Note: GOES data is not included in V3.0 of the Phase 1 dataset but will be released in V3.1**
+* <b>GOES data folder</b>: X-Ray flux information collected by NOAA'S GOES satellites and provided in 60-day segments (one 60-day GOES history file per initial state). Each file name has the format `goes-[file ID]-[first day]_to_[last day].csv`, where the dates are displayed as `YYYYmmDD`. To maximize availability, measurements from multiple GOES satellites were merged, with higher-numbered satellites taking precedence in cases of overlap, so a single file may contain rows from different GOES spacecraft.
 * <b>Thermospheric density data folder</b>: Time series orbit average density values collected by ESA satellites and provided in 3-day segments (one 3-day "forecasted" density file per initial state). Each file name has the format `[spacecraft]-[file ID]-[first day]_to_[last day].csv`, where the spacecraft is indicated by a 6-character designation and dates are displayed as `YYYYmmDD`.
 
 Your objective is to design a model that, given a spacecraft's initial state and 60 days of space weather information directly preceding that state, can predict the next 3 days of atmospheric density values the spacecraft will observe.
@@ -53,6 +66,21 @@ Participants should use this subset of the STORM-AI data to become familiar with
 * <b>OMNI2</b>: Space weather information collected by NASA Space Flight Goddard Center and provided in 60-day segments (one 60-day OMNI2 history file per initial SWARM A state)
 * <b>GOES</b>: X-Ray flux information collected by NOAA'S GOES-13 satellite and provided in 60-day segments (one 60-day GOES history file per initial SWARM A state)
 * <b>Sat_Density</b>: Time series orbit average density values collected by ESA'S SWARM A satellite and provided in 3-day segments (one 3-day "forecasted" density file per initial SWARM A state)
+
+### Evaluation Dataset Composition
+
+The evaluation data was served only through the scoring server and split into a public part (driving the live leaderboard) and a private part (used for the final ranking, weighted toward strong solar/geomagnetic activity). The public part was further divided into Phase 1.1 (a low-barrier warm-up that overlaps in time with the training period but uses shifted initial states) and Phase 1.2 (built entirely from samples never seen in training). The table below shows how the 4,557 evaluation samples are distributed across missions and phases; note that **SWARM-B appears only in evaluation**, never in training.
+
+| Satellite  | Phase 1.1 | Phase 1.2 | Private Eval. | Total |
+|------------|----------:|----------:|--------------:|------:|
+| CHAMP      | 1129 | 0   | 10  | 1139 |
+| GRACE-1    | 29   | 0   | 0   | 29   |
+| GRACE-2    | 949  | 0   | 10  | 959  |
+| SWARM-A    | 0    | 0   | 102 | 102  |
+| SWARM-B    | 0    | 844 | 122 | 966  |
+| SWARM-C    | 0    | 483 | 109 | 592  |
+| GRACE-FO 1 | 640  | 0   | 130 | 770  |
+| **Totals** | **2747** | **1327** | **483** | **4557** |
 
 ### Definitions
 
@@ -221,6 +249,7 @@ There is a specific bit arrangement for <b>xrsa_flag</b> and <b>xrsb_flag</b> va
 | V3.2     | 2025-01-22      | Added initial state time codes for samples 6672-8118 and fixed OEs in warmup dataset                  |
 | V3.3     | 2025-03-04      | Added missing GOES data from 2007-2013                                                                |
 | V3.4     | 2025-04-07      | Increased GOES data density for the 2007-2013 files updated in V3.3. See more details <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/discussions/25#discussioncomment-12780485">here<a/>.           |
+| Full release | 2026        | Complete dataset (training, public-evaluation, and private-evaluation splits, all missions) permanently archived on the <a href="https://dataverse.harvard.edu/dataverse/stormai">Harvard Dataverse</a> alongside the *Space Weather* article.           |
 
 ## Guidelines
 

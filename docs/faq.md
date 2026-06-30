@@ -39,7 +39,7 @@
       Q: How do I download the dataset? 
     </summary>
     <p style="margin-top: 10px; font-size: 14px; color: #555;">
-      A: Dropbox may not support direct downloading of the entire Phase 1 dataset at once. Instead, open the Phase 1 dataset folder, where you’ll find several subfolders—such as omni2, goes, and density—available for individual download. Note that the goes folder is larger and contains multiple subfolders, each of which can also be downloaded separately.
+      A: The complete dataset is permanently archived on the <a href="https://dataverse.harvard.edu/dataverse/stormai">Harvard Dataverse</a>, which is now the canonical download. During the live competition the data was hosted on Dropbox, which may not support downloading an entire dataset folder at once; in that case, open the dataset folder and download the subfolders (such as omni2, goes, and density) individually. Note that the goes folder is larger and contains multiple subfolders, each of which can also be downloaded separately.
     </p>
   </details>
 </div>
