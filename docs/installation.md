@@ -13,11 +13,11 @@ However, please note:
 <div style="display: flex; flex-direction: column; background-color: #e7f3fe; border-left: 6px solid #646464; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; color: #333;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #646464; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">💡 Recommendation</div>
     <ol style="font-size: 14px; margin: 0; padding-left: 20px; line-height: 1.5;">
-        <li>Start by working with <strong>Anaconda</strong>.</li>
-        <li>Test that <strong>Micromamba</strong> can import your environment locally before uploading it to the challenge.</li>
+        <li>Build and test your environment with <strong>Anaconda</strong> first.</li>
+        <li>Before uploading, confirm that <strong>Micromamba</strong> can recreate that environment locally from your exported <code>environment.yml</code>.</li>
     </ol>
     <p style="font-size: 14px; margin: 0; line-height: 1.5;">
-        This will ensure that your submission runs smoothly without issues.
+        Checking this in advance avoids dependency surprises when your submission is rebuilt and run on our servers.
     </p>
 </div>
 
@@ -36,7 +36,7 @@ Follow the Anaconda installation guide [here](https://docs.anaconda.com/free/ana
 <div style="display: flex; flex-direction: column; background-color: #e7f3fe; border-left: 6px solid #2196f3; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; color: #333;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #1265c0; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;"> ℹ️ Info</div>
     <p style="font-size: 14px; margin: 0; line-height: 1.5;">
-        Anaconda includes a built-in Python installation. The container runs <strong>Python 3.9.21</strong>, so make sure you are not using an older version.
+        Anaconda ships with its own Python interpreter. The evaluation container runs <strong>Python 3.9.21</strong>, so target Python 3.9+ (and avoid older releases) to prevent version mismatches at evaluation time.
     </p>
 </div>
 

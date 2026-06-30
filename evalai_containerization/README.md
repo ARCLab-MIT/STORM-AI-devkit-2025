@@ -1,6 +1,8 @@
-# EvalAI CLI Container
+# EvalAI CLI Container (legacy)
 
-Here we provide a `Dockerfile` that you can use in case you are experiencing issues installing or using the `EvalAI CLI Tool`. To get started, install `docker`. You can follow the installation manual in the [wiki](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html). Then, edit the `Dockerfile` to add your **EvalAI token** where it is indicated.
+> **⚠️ Legacy path.** The 2025 STORM-AI challenge was hosted on **Codabench**, not EvalAI. This container helper is kept for reference only; see the [submission tutorial](https://2025-ai-challenge.readthedocs.io/en/latest/submission.html) for the workflow that was actually used.
+
+Here we provide a `Dockerfile` that you can use in case you are experiencing issues installing or using the `EvalAI CLI Tool`. To get started, install `docker` (you can follow the [installation guide](https://2025-ai-challenge.readthedocs.io/en/latest/installation.html) in the wiki). Then, edit the `Dockerfile` to add your **EvalAI token** where it is indicated.
 
 
 
