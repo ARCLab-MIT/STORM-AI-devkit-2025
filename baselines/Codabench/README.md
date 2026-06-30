@@ -1,6 +1,6 @@
 # STORM-AI Starter Toolkit (Codabench)
 ## Persistence baseline
-This baseline provide a boilerplate of how the submission should be made to the EvalAI platform. This notebook acts as a quick start guide and establishes a low performance baseline for the challenge. It consists in the replication of the inital values of the NRLMSIS model through all the output size.
+This baseline provides a boilerplate of how a submission should be made to the Codabench platform. This notebook acts as a quick start guide and establishes a low-performance baseline for the challenge. It consists in the replication of the initial values of the NRLMSIS model through all the output size.
 
 As the objective is to get the orbital mean density, it utilizes the [devkit provided propagator](https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/tree/main/orbit_propagator) to propagate from the initial state the orbit the object specified. 
 

@@ -187,7 +187,7 @@ Also, by clicking the eye icon, you can see detailed results of your submission,
 
 ## Performance Evaluation
 
-Once your model is running, you can evaluate it with the available data. The `evaluation.py` script provides a standard way to assess the performance of the models submitted for the challenge. It uses metrics and evaluation techniques that align with the challenge's objectives.
+Once your model is running, you can evaluate it with the available data. The `evaluation.py` script provides a standard way to assess the performance of the models submitted for the challenge. It reproduces the public challenge metric, the **Orbit-Density RMSE skill score (OD-RMSE)** (implemented in the code as the *Propagation Score*), which measures the percentage improvement of your density forecast over the MSIS baseline with greater weight on early lead times: `1` is a perfect forecast, `0` is parity with MSIS, and negative values are worse than the baseline. The private leaderboard additionally used a storm-aware variant (SSAOD-RMSE) that gives extra weight to periods of high geomagnetic activity.
 
 **Example Usage**
 
