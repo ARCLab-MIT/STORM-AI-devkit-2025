@@ -146,7 +146,7 @@ micromamba run --name sub_env python submission.py
 <div style="display: flex; flex-direction: column; background-color: #f9f9f9; border-left: 6px solid #4aa8ec; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #4aa8ec; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">ℹ️ Notes</div>
     <p style="font-size: 14px; margin: 0; color: #555;">
-    <b>Note</b>: You can replace the <code>storm-ai-submission</code> with whatever name and tag you used to build the container.
+    <b>Note</b>: The <code>docker run</code> command above uses the prebuilt <code>arclabmit/ai-challenges:micromamba-submission</code> image. If you built your own container instead, replace that image name with your own name and tag.
     <br><br>
     <b>Note 2</b>: To test GPU, you will need to install the <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html"> nvidia-container-toolkit</a>: You will also need to use <code>--gpus all</code> in the call to <code>docker run</code>.
     </p>

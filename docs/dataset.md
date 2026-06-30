@@ -165,7 +165,7 @@ The evaluation data was served only through the scoring server and split into a 
 #### GOES-EAST (GOES-8, 12, 13, 16) X-Ray Flux Data
 For additional information on the GOES datasets, we recommend checking out <a href="https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0">the NOAA Satellite Information System</a>.
 
-There is a specific bit arrangement for <b>xrsa_flag</b> and <b>xrsb_flag</b> values-- you can find more info on <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/discussions/6">this discussion forum post</a>. Overall, it would be most helpful for you to just think of any data entries with 0.0 flag values as ‘good’ data. Any other value in the flag columns can be considered ‘bad’ or ‘compromised’ data.
+The <b>xrsa_flag</b> and <b>xrsb_flag</b> columns use a specific bit arrangement, described in <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/discussions/6">this discussion forum post</a>. As a practical rule, treat any entry with a flag value of <code>0.0</code> as good data, and any other flag value as bad or compromised.
 
 
 | Column Header              | Description                                                                                       |
@@ -253,7 +253,11 @@ There is a specific bit arrangement for <b>xrsa_flag</b> and <b>xrsb_flag</b> va
 
 ## Guidelines
 
-Participants should note that algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged. 
+**Allowed inputs.** For a submission to be valid, model inputs must be limited to the phenomenology and data formats present in the public training dataset. Using additional phenomenology or external data sources during model validation and development is allowed and encouraged, as long as those extra sources are not required at inference time.
 
-Also note that since these datasets are collected from real spacecraft, there may be short gaps in the data due to blackout periods and instrument error. Participants should take this into account when designing their algorithms to ensure successful submissions.
+**Real-world data quality.** Because these measurements come from real spacecraft, the data is not perfectly clean: expect occasional gaps caused by instrument blackouts and sensor errors. Design your pipeline to handle them gracefully so that your submission runs to completion. In particular:
+
+* **Density targets** may contain missing values encoded as `null` or as non-physical placeholders (for example `inf` or values on the order of `9.99e32`); these should be discarded rather than used as real measurements.
+* **GOES** files mark questionable measurements with the `xrsa_flag` / `xrsb_flag` columns (see below): treat a flag of `0` as good data and any other value as bad or compromised.
+* **OMNI2** files use `999.9` as a fill value to indicate missing entries.
 
