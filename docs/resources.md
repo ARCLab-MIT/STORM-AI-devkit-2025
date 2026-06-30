@@ -1,6 +1,8 @@
 # Resources
 
-The following datasets, development tools, and publications may be helpful resources for participants the reference during the challenge. Please note that these resources should be cited or credited in accordance with the policies of the source entity when they are utilized to develop solutions for the challenge problem.
+The primary reference for the challenge itself &mdash; its design, dataset, evaluation, and final results &mdash; is the STORM-AI article in *Space Weather* (see the [Citation](https://2025-ai-challenge.readthedocs.io/en/latest/cite.html) page).
+
+The following datasets, development tools, and publications may also be helpful resources for participants to reference during the challenge. Please note that these resources should be cited or credited in accordance with the policies of the source entity when they are utilized to develop solutions for the challenge problem.
 
 1. [Transformer-based Atmospheric Density Forecasting (Briden, Siew, R.F., Linares)](https://arxiv.org/abs/2310.16912)
 
@@ -12,10 +14,12 @@ The following datasets, development tools, and publications may be helpful resou
 
 5. [NRLMSIS 2.0: A whole‐atmosphere empirical model of temperature and neutral species densities (Emmert, J. T., Drob, D. P., Picone, J. M., & Meier, R. R.)](https://doi.org/10.1029/2020JA028532)
 
-6. [OMNI2 space weather dataset (NASA Goddard Space Flight Center)](https://omniweb.gsfc.nasa.gov/form/dx1.html)
+6. [A new empirical thermospheric density model JB2008 using new solar and geomagnetic indices (Bowman, B. R., Tobiska, W. K., Marcos, F. A., et al.)](https://doi.org/10.2514/6.2008-6438)
 
-7. [SWARM dataset (ESA)](https://earth.esa.int/eogateway/missions/swarm)
+7. [OMNI2 space weather dataset (NASA Goddard Space Flight Center)](https://omniweb.gsfc.nasa.gov/form/dx1.html)
 
-8. [GOES Satellite dataset for X-Ray Flux (NOAA)](https://www.ngdc.noaa.gov/stp/satellite/goes-r.html)
+8. [SWARM dataset (ESA)](https://earth.esa.int/eogateway/missions/swarm)
 
-9. [pymsis (tool for modeling atmospheric density)](https://pypi.org/project/pymsis/)
+9. [GOES Satellite dataset for X-Ray Flux (NOAA)](https://www.ngdc.noaa.gov/stp/satellite/goes-r.html)
+
+10. [pymsis (tool for modeling atmospheric density)](https://pypi.org/project/pymsis/)

@@ -3,11 +3,11 @@
 # -- Project information
 
 project = '2025 STORM-AI Wiki'
-copyright = '2024, MIT ARCLab'
+copyright = '2024–2026, MIT ARCLab'
 author = 'MIT ARCLab - Edenna Cheng, Liz Solera and Sergio Sanchez-Hurtado'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0.0'
 
 # -- General configuration
 
