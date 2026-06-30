@@ -72,9 +72,9 @@
 <div align="left">
 
 <div style="display: flex; flex-direction: column; background-color: #fff4e5; border-left: 6px solid #ffa500; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
-    <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ffa500; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">🚀  Competition Status</div>
-    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">This competition has concluded! Thank you to everyone who participated in the challenge through Codabench, discussion forums, office hours, and beyond. Phase 1 weighted performance scores are now available on the public leaderboard, and invitations to participate in Phase 2 were emailed to finalists on Friday, May 9th. Finalists must submit technical reports by Monday, May 26th, 11:59:59 PM EDT in order to be an eligible prize winner.</p>
-    <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Have fun!</b></p>
+    <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ffa500; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">🏁  Competition Status</div>
+    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">This competition has concluded! Congratulations to our top teams &mdash; <b>Bimasakti</b> (1st), <b>Millennial-IUP</b> (2nd), and <b>Cteceliker</b> (3rd) &mdash; and thank you to everyone who took part through Codabench, the discussion forums, office hours, and beyond. The complete multi-mission STORM-AI dataset and this development kit remain openly available, and the full design, methodology, and results are documented in our <i>Space Weather</i> article (see the <a href="https://2025-ai-challenge.readthedocs.io/en/latest/results.html">Results</a> and <a href="https://2025-ai-challenge.readthedocs.io/en/latest/cite.html">Citation</a> pages).</p>
+    <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Thank you for participating!</b></p>
 </div>
 </div>
 
