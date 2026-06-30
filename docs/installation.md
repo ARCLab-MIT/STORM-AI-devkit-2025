@@ -24,7 +24,7 @@ However, please note:
 Additionally, you can recreate the container where your submission will be executed using Docker. The prebuilt container is available on **Docker Hub** and can be pulled with the following command:
 
 ```bash
-docker pull arclab/AI-Challenge/mamba-submission:latest 
+docker pull arclabmit/ai-challenges:micromamba-submission
 ```
 
 This container includes NVIDIA drivers, **Micromamba**, and essential scientific libraries such as `numpy` and `pandas`. 
@@ -111,7 +111,7 @@ If your submission requires GPU acceleration and you want to test it locally, in
 Download the devkit using the terminal and move into the newly created folder:
 
 ```bash
-cd && git clone https://github.com/ARCLab-MIT/STORM-AI-devkit-2025.git && cd 2025-aichallenge-devkit
+cd && git clone https://github.com/ARCLab-MIT/STORM-AI-devkit-2025.git && cd STORM-AI-devkit-2025
 ```
 
 This command will clone the repository into your home directory. While you can place it in another directory, the rest of our tutorials assume you are working from your home directory.

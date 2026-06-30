@@ -78,7 +78,7 @@ Then, the directory structure is as follows:
 
 As previously mentioned, your submission must generate predictions and save them as a JSON file named `prediction.json`.
 
-- The JSON file should be saved to `/app/output/submission.json` in the Docker container.
+- The JSON file should be saved to `/app/output/prediction.json` in the Docker container.
 - The output `.json` file should look like this:
 
 ```json

@@ -30,7 +30,7 @@ Installation Instructions for Miniconda can be found here: https://docs.anaconda
 
    - Install **Pandas**:
      ```bash
-     conda install -c conda-forge panda
+     conda install -c conda-forge pandas
      ```
 
    - Install **NumPy**:
